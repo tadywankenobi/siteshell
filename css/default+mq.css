@@ -1,0 +1,34 @@
+/*---- All styles: start with mobile styles, screens up to 480px wide. Default styles for all should be here too. ----*/
+
+
+
+
+
+
+
+
+
+/*--- Apply constraints for screens larger than mobile, 480px wide (iPhone landscape) and up  ---*/
+@media screen and (min-width: 480px) {
+
+}
+
+/*--- Apply constraints for screens larger than mobile, 600px wide (Xoom and other tablets) and up  ---*/
+@media screen and (min-width: 600px) {
+
+}
+
+/*--- Apply constraints for screens like tablet, 768px wide (iPad portrait) and up  ---*/
+@media screen and (min-width: 768px) {
+
+}
+
+/*--- Apply constraints for screens larger than tablet portrait, 1024px wide (iPad landscape) and up  ---*/
+@media screen and (min-width: 1024px) {
+
+}
+
+/*--- Sometimes on larger screens I use this. Apply constraints for wide and cinema screens, 1300px (iMac) and up  ---*/
+@media screen and (min-width: 1300px) {
+
+}

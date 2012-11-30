@@ -1,0 +1,61 @@
+/* Colours: List colours here for various page elements to keep consistency
+Content font 	: #444
+Header 2		: #
+Header 3		: #
+Header 4		: #
+Content Anchor	: #
+GNS BG			: #
+GNS link		: #
+
+*/
+
+/*---- All styles: start with mobile styles, screens up to 480px wide. Default styles for all should be here too. ----*/
+* {margin:0;padding:0;}
+html {font:65.5%/1.0em arial;}
+footer.mf {width:100%;float:left;background:#444;}
+footer.mf .container_12 {background:#444;color:#fff}
+footer.mf .container_12 ul li a {color:#fff}
+
+
+form ol, form ol li {margin:0.5em 0;padding:0 0 0.25em 0;float:left;width:100%;list-style:none;clear:both}
+	form ol li label {float:left;width:20%;}
+	form ol li label .extra {float:right;}
+	form ol li input, form ol li select, form ol li textarea {float:left;width:50%;}
+	form ol li textarea {height:100px;}
+	form ol li.submit {text-align:center}
+		form ol li.submit input.submit-button {float:none;width:25%}
+
+
+
+
+
+/*--- Apply constraints for screens larger than mobile, 480px wide (iPhone landscape) and up  ---*/
+@media screen and (min-width: 480px) {
+
+}
+
+/*--- Apply constraints for screens larger than mobile, 600px wide (Xoom and other tablets) and up  ---*/
+@media screen and (min-width: 600px) {
+
+}
+
+/*--- Apply constraints for screens like tablet, 768px wide (iPad portrait) and up  ---*/
+@media screen and (min-width: 768px) {
+#gns {background:#444;}
+	#gns ul {margin:0.5em 0;float:left;list-style:none;width:100%}
+		#gns ul li {margin:0;padding:0;float:left;list-style:none;color:#fff;text-align:center;min-width:25%}
+			#gns ul li a {color:#fff}
+			
+.breadcrumb {margin:0.5em 0;float:right;width:auto;list-style:none;}
+	.breadcrumb li {float:left;list-style:none;}
+}
+
+/*--- Apply constraints for screens larger than tablet portrait, 1024px wide (iPad landscape) and up  ---*/
+@media screen and (min-width: 1024px) {
+
+}
+
+/*--- Sometimes on larger screens I use this. Apply constraints for wide and cinema screens, 1300px (iMac) and up  ---*/
+@media screen and (min-width: 1300px) {
+
+}

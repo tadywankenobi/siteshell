@@ -1,0 +1,5 @@
+Site Shell by Arekibo
+
+Wireframes 	: Tady Walsh
+HTML/CSS	: Tady Walsh, Jennifer Brady
+PHP			: Tady Walsh, Jennifer Brady

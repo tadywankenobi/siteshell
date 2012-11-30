@@ -1,0 +1,36 @@
+== Info: Could not resolve host: url; nodename nor servname provided, or not known
+== Info: Closing connection #0
+== Info: About to connect() to daacp.arekibo.com port 80 (#0)
+== Info:   Trying 91.220.45.248... == Info: connected
+== Info: Connected to daacp.arekibo.com (91.220.45.248) port 80 (#0)
+=> Send header, 163 bytes (0xa3)
+0000: GET /linktest.htm HTTP/1.1
+001c: User-Agent: curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.2
+005c: 1.4 OpenSSL/0.9.8r zlib/1.2.5
+007b: Host: daacp.arekibo.com
+0094: Accept: */*
+00a1: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 25 bytes (0x19)
+0000: Content-Type: text/html
+<= Recv header, 46 bytes (0x2e)
+0000: Last-Modified: Mon, 02 Jul 2012 16:36:32 GMT
+<= Recv header, 22 bytes (0x16)
+0000: Accept-Ranges: bytes
+<= Recv header, 27 bytes (0x1b)
+0000: ETag: "2aeca7d67058cd1:0"
+<= Recv header, 27 bytes (0x1b)
+0000: Server: Microsoft-IIS/7.5
+<= Recv header, 23 bytes (0x17)
+0000: X-Powered-By: ASP.NET
+<= Recv header, 37 bytes (0x25)
+0000: Date: Wed, 04 Jul 2012 13:32:29 GMT
+<= Recv header, 19 bytes (0x13)
+0000: Content-Length: 4
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 4 bytes (0x4)
+0000: true
+== Info: Connection #0 to host daacp.arekibo.com left intact
+== Info: Closing connection #0
